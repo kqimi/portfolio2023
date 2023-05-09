@@ -147,6 +147,7 @@ svg {
     width: 100%;
     margin: 0 auto;
     height: 100vh;
+    padding-top: 200px;
 
 
 
@@ -154,7 +155,7 @@ svg {
 
 .container {
     max-width: 1600px;
-    margin: 100px auto;
+    margin: 0 auto;
 }
 
 .row {
@@ -268,6 +269,13 @@ svg {
     translate: 0;
 }
 
+#about-me {
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    padding-top: 200px;
+}
+
 #about-me h2 {
     font-size: 30px;
     text-align: center;
@@ -275,6 +283,17 @@ svg {
     font-size: 50px;
     margin-top: 100px;
 
+}
+
+#about-me img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 500px;
+}
+
+.introduction {
+    max-width: 50%;
 }
 
 /* locomotive scroll pin */
