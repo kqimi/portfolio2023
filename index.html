@@ -6,7 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        html {
+            font-family: sans-serif;
+            -ms-scroll-snap-type: mandatory;
+            scroll-snap-type: mandatory;
+            -ms-scroll-snap-points-y: repeat(100vh);
+            -ms-scroll-snap-type: y mandatory;
+            scroll-snap-type: y mandatory;
+        }
 
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-bottom: 1px solid white;
+            min-height: 100vh;
+            scroll-snap-align: start;
+            text-align: center;
+            position: relative;
+        }
+    </style>
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -147,7 +167,7 @@
     <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
     <script src="../autoscroll.js"></script> -->
-    <script src="https://unpkg.com/spacingjs" defer></script>
+    <!-- <script src="https://unpkg.com/spacingjs" defer></script> -->
     <!-- <script src="parallax.js"></script> -->
     <!-- <script src="pagescroller.js"></script> -->
 </body>
